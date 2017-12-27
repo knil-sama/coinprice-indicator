@@ -20,10 +20,10 @@ class Kraken(Exchange):
         'currency': CURRENCY['usd']
       },
       {
-        'isocode': 'XXBTZEUR',
-        'pair': 'XXBTZEUR',
-        'name': 'BTC to EUR',
-        'currency': CURRENCY['eur']
+        'isocode': 'XXLMXXBT',
+        'pair': 'XXLMXXBT',
+        'name': 'XLM to XBT',
+        'currency': CURRENCY['btc']
       },
       {
         'isocode': 'XXLTZUSD',
@@ -35,6 +35,12 @@ class Kraken(Exchange):
         'isocode': 'XXLTZEUR',
         'pair': 'XLTCZEUR',
         'name': 'LTC to EUR',
+        'currency': CURRENCY['eur']
+      },
+      {
+        'isocode': 'XXBTZEUR',
+        'pair': 'XXBTZEUR',
+        'name': 'BTC to EUR',
         'currency': CURRENCY['eur']
       },
       {
